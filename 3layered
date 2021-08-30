@@ -1,0 +1,164 @@
+using System;
+using System.Collections.Generic;
+
+namespace ETMSystem
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("******************************************");
+            Console.WriteLine("Welcome to Employee Training Login System");
+            Console.WriteLine("******************************************");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+
+            Console.WriteLine("Enter Your UserID:");
+            string UserID = Console.ReadLine();
+            Console.WriteLine(UserID);
+
+            Console.WriteLine("Enter Your Password:");
+            string Password = Console.ReadLine();
+            Console.WriteLine(Password);
+
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("Employee's Login Successful");
+
+
+        }
+    }
+}
+
+
+
+
+
+
+
+
+using System;
+
+namespace ETMS
+{
+    class Program
+    {
+        //ito po ang business Layered
+        //Dito pinapakita kung ilan ang bibili ng product na available.
+       //At kung paano mag add ng items sa order na gusto ng customer.
+
+        static void Main(string[] args)
+        {
+
+
+            Console.WriteLine("******************************************");
+            Console.WriteLine("Welcome to Available Product Employee Training System");
+            Console.WriteLine("******************************************");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine("fujin shoes");
+            Console.WriteLine("ifrinch shoes");
+            Console.WriteLine("lujinping shoes");
+            Console.WriteLine("Press 1 If your oder is fujin shoes. Press 2 If your order is ifrinch shoes. Press 3 If your order is lujinping shoes");
+
+            Console.Write("Enter your order number of available shoes: ");
+            string Ordernumber = Console.ReadLine();
+            Console.WriteLine(Ordernumber);
+
+
+            //Next is signing up.
+
+
+            Console.Write("Enter your Full Name: ");
+            string OrderNAme = Console.ReadLine();
+            Console.WriteLine(OrderNAme);
+
+            Console.Write("Enter your Age: ");
+            string Age = Console.ReadLine();
+            Console.WriteLine(Age);
+
+            Console.Write("Enter your complete Address: ");
+            string OwnerAddress = Console.ReadLine();
+            Console.WriteLine(OwnerAddress);
+
+
+            Console.Write("Enter your Phone Number: ");
+            string CellNumber = Console.ReadLine();
+            Console.WriteLine(CellNumber);
+
+            Console.Write("Enter your Email: ");
+            string Email = Console.ReadLine();
+            Console.WriteLine(Email);
+
+
+            //dito na yong process ng pag add ng items.
+
+
+            Console.Write("Enter add item if you want to add you order of shoes: ");
+            string productitem = Console.ReadLine();
+            Console.WriteLine("addorder " + productitem);
+
+            Console.Write("Press any number key for your add order of available shoes: ");
+            string numbersoforder = Console.ReadLine();
+            Console.WriteLine(numbersoforder);
+
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("Your order is in process:.........");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+
+            Console.WriteLine("******************************************");
+            Console.WriteLine("THANK YOU FOR CHOOSING US!");
+            Console.WriteLine("******************************************");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+        }
+    }
+}
+
+
+
+
+
+using System;
+using System.Collections.Generic;
+
+namespace DataLayer
+{
+    class NewList
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("******************************************");
+            Console.WriteLine("Welcome to Employee Training Login System");
+            Console.WriteLine("******************************************");
+
+            Console.WriteLine("=== Employee's New Listers ===");
+            Console.WriteLine("Corie");
+            Console.WriteLine("Ben");
+            Console.WriteLine("Vale");
+
+            Console.WriteLine("Please Enter Your Email:");
+            string Email = Console.ReadLine();
+            Console.WriteLine(Email);
+
+            Console.WriteLine("Enter Your Verification Code:");
+            string Code = Console.ReadLine();
+            Console.WriteLine(Code);
+
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("You Got It!");
+
+
+
+        }
+    }
+}
